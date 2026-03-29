@@ -1,0 +1,23 @@
+%% Style: default — Original style (dark navy, lmodern)
+\usepackage{lmodern}
+
+\definecolor{accent}{HTML}{1F3A5F}
+\definecolor{muted}{HTML}{606060}
+\definecolor{headerSubtext}{HTML}{606060}
+
+\titleformat{\section}
+  {\large\bfseries\color{accent}}{}{0em}{}[\color{accent}\rule{\linewidth}{1pt}]
+\titlespacing{\section}{0pt}{1.3em}{0.7em}
+
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{accent}}{}{0em}{}
+\titlespacing{\subsection}{0pt}{0.9em}{0.4em}
+
+\newcommand{\cventry}[4]{%
+  \needspace{5\baselineskip}%
+  \vspace{3pt}%
+  \noindent\textbf{#1}\hfill\textcolor{muted}{\small #4}\\%
+  \textit{\textcolor{muted}{#2}}\hfill\textcolor{muted}{\small #3}%
+  \nopagebreak[4]%
+  \vspace{3pt}%
+}

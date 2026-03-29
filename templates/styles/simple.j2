@@ -1,0 +1,34 @@
+%% Style: simple — Clean sans-serif, no color accent, ATS-tolerant
+%% Font: Source Sans 3 (Google Fonts) — legible, neutral sans-serif
+%% Accent: black #000000 — clean, purely black and white
+\usepackage{fontspec}
+\setmainfont{SourceSans3}[
+  Path           = [[ fonts_dir ]]/SourceSans3/,
+  Extension      = .ttf,
+  UprightFont    = *-Regular,
+  BoldFont       = *-Bold,
+  ItalicFont     = *-Italic,
+  BoldItalicFont = *-BoldItalic,
+]
+
+\definecolor{accent}{HTML}{000000}
+\definecolor{muted}{HTML}{555555}
+\definecolor{headerSubtext}{HTML}{555555}
+
+%% Section headings: bold, black, with rule (no color)
+\titleformat{\section}
+  {\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1.3em}{0.65em}
+
+\titleformat{\subsection}
+  {\normalsize\bfseries}{}{0em}{}
+\titlespacing{\subsection}{0pt}{0.9em}{0.4em}
+
+\newcommand{\cventry}[4]{%
+  \needspace{5\baselineskip}%
+  \vspace{3pt}%
+  \noindent\textbf{#1}\hfill\textcolor{muted}{\small #4}\\%
+  \textit{\textcolor{muted}{#2}}\hfill\textcolor{muted}{\small #3}%
+  \nopagebreak[4]%
+  \vspace{3pt}%
+}

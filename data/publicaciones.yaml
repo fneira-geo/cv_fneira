@@ -1,0 +1,62 @@
+# =============================================================================
+# PUBLICACIONES Y PRESENTACIONES
+# =============================================================================
+
+publicaciones:
+  - autores: >
+      Goffin, B. D., Cortés-Monroy, C. Calvo, Neira-Román, F.,
+      Gupta, D. D., & Lakshmi, V.
+    año: 2024
+    titulo: >
+      At Which Overpass Time Do ECOSTRESS Observations Best Align
+      with Crop Health and Water Rights?
+    revista: "Remote Sensing, 16(17), 3174"
+    doi: "https://doi.org/10.3390/rs16173174"
+
+  - autores: >
+      Goffin, B. D., Thakur, R., Da Conceição Carlos, S., Srsic, D.,
+      Williams, C., Ross, K., Neira-Román, F., Cortés-Monroy, C. C.,
+      & Lakshmi, V.
+    año: 2022
+    titulo: >
+      Leveraging remotely-sensed vegetation indices to evaluate crop
+      coefficients and actual irrigation requirements in the water-stressed
+      Maipo River Basin of Central Chile
+    revista: "Sustainable Horizons, 4, 100039"
+    doi: "https://doi.org/10.1016/j.horiz.2022.100039"
+
+  - autores: "Díaz, D., Morales, L., Castellaro, G. and Neira, F."
+    año: 2010
+    titulo: >
+      Topoclimatic Modelling of Thermopluviometric Variables for the
+      Bío Bío and La Araucanía Regions, Chile
+    revista: "Chilean Journal of Agricultural Research 70(4): 604-615"
+    doi: "https://doi.org/10.4067/S0718-58392010000400011"
+
+congresos:
+  - titulo: >
+      Determining Crop Coefficients Using Remote Sensing for the Maipo
+      River Valley Basin
+    evento: American Geophysical Union (AGU) Fall Meeting 2022
+    lugar: ""
+    fecha: "2022-12"
+    tipo: presentacion
+
+  - titulo: >
+      Cartografía climática Región del Libertador Bernardo O'Higgins
+    evento: >
+      61° Congreso Agronómico de Chile / 56th Annual Meeting SIHT /
+      11° Congreso Sociedad Chilena de Fruticultura
+    lugar: Universidad de Chile, Santiago
+    fecha: "2010-09"
+    tipo: poster
+
+  - titulo: >
+      Cartografía climática mediante redes neuronales artificiales:
+      Aplicación en la Región del Libertador Bernardo O'Higgins
+    evento: >
+      Congreso Latinoamericano de Física y Química Ambiental /
+      VI Jornadas Chilenas de Física y Química Ambiental
+    lugar: Universidad de Tarapacá, Arica, Chile
+    fecha: "2009-10"
+    tipo: poster

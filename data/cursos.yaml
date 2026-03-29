@@ -1,0 +1,75 @@
+# =============================================================================
+# FORMACIÓN COMPLEMENTARIA CONSOLIDADA
+# incluir_exec: true → aparece en versión ejecutiva
+# =============================================================================
+
+# --- NASA ARSET ---
+- nombre: Agricultural Crop Classification with SAR and Optical Remote Sensing
+  institucion: NASA Applied Remote Sensing Training (ARSET)
+  fecha: "2021-10"
+  incluir_exec: true
+
+- nombre: Introduction to NASA Resources for Climate Change Applications
+  institucion: NASA ARSET
+  fecha: "2021-10"
+  incluir_exec: true
+
+- nombre: Applications of Remote Sensing-Based Evapotranspiration Data Products
+  institucion: NASA ARSET
+  fecha: "2022-06"
+  incluir_exec: true
+
+- nombre: Selecting Climate Change Projection Sets for Mitigation, Adaptation and Risk Management
+  institucion: NASA ARSET
+  fecha: "2022-09"
+  incluir_exec: true
+
+# --- Naciones Unidas ---
+- nombre: Big Data Analysis for Water-Related Applications
+  institucion: United Nations University (UNU-INWEH)
+  fecha: "2021-07"
+  incluir_exec: true
+
+# --- Google Earth Engine ---
+- nombre: Google Earth Engine (Proyecto FONDEF Observatorio Satelital de Nieves)
+  institucion: Lab. Teledetección Ambiental (TeleAmb), U. de Playa Ancha
+  fecha: "2021-10"
+  incluir_exec: false
+
+# --- Clima / Agricultura ---
+- nombre: Gestión de riesgos climáticos vinculados al sector silvoagropecuario
+  institucion: MINAGRI
+  fecha: "2022"
+  incluir_exec: false
+
+- nombre: Información en tiempo real para acción climática en agricultura (v. III)
+  institucion: Red Agroclimática Nacional, MINAGRI
+  fecha: "2020-07"
+  incluir_exec: false
+
+# --- DataCamp ---
+- nombre: "Data Science con Python y R (DataCamp)"
+  institucion: DataCamp
+  fecha: "2020 – 2022"
+  incluir_exec: false
+  detalle: >
+    Python: Intermediate Python, Data Manipulation with Pandas, Data Science
+    Toolbox, Writing Efficient Python Code.
+    R: Intermediate R, Importing Data, Tidyverse, dplyr, Machine Learning
+    with Caret, Supervised Classification, Unsupervised Learning.
+
+# --- Udemy ---
+- nombre: Series temporales con R y Python
+  institucion: Udemy
+  fecha: "2022"
+  incluir_exec: false
+
+- nombre: Object-based Image Analysis and Classification (QGIS/ArcGIS)
+  institucion: Udemy
+  fecha: "2021"
+  incluir_exec: false
+
+# Cursos de menor relevancia para CV ejecutivo (no incluir):
+# - Learn LaTeX (Udemy, 2022)
+# - Python programming Basics to Advanced (Udemy, 2021)
+# - Introduction to Python / R (DataCamp, 2016)

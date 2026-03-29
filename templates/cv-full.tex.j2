@@ -1,0 +1,104 @@
+%% cv-full.tex.j2 — Complete CV
+%% To update content: edit data/*.yaml then run: make full
+\documentclass[11pt, letterpaper]{article}
+[% include '_preamble.tex.j2' %]
+
+\begin{document}
+
+%% ── Header ───────────────────────────────────────────────────────────────────
+\adaptiveheaderBegin
+\begin{center}
+  {\LARGE\bfseries [[ perfil.nombre ]]}\\[6pt]
+  {\color{headerSubtext} [[ perfil.titulo | e ]]}\\[7pt]
+  \small
+  \href{mailto:[[ perfil.email ]]}{[[ perfil.email ]]}%
+  \quad\textbar\quad [[ perfil.telefono ]]%
+  \quad\textbar\quad [[ perfil.ubicacion ]]%
+  [% if perfil.linkedin %]\quad\textbar\quad\href{https://linkedin.com/in/[[ perfil.linkedin ]]}{LinkedIn}[% endif %]%
+  [% if perfil.github %]\quad\textbar\quad\href{https://github.com/[[ perfil.github ]]}{github/[[ perfil.github ]]}[% endif %]
+\end{center}
+\adaptiveheaderEnd
+{\color{accent}\rule{\textwidth}{1pt}}
+\vspace{6pt}
+
+%% ── 1. Perfil Profesional ───────────────────────────────────────────────────
+\section{Perfil Profesional}
+[[ perfil.resumen | trim ]]
+
+%% ── 2. Competencias ─────────────────────────────────────────────────────────
+\section{Competencias}
+\begin{itemize}[label={}]
+[% for grupo in competencias %]
+  \item \textbf{[[ grupo.grupo | e ]]:} [[ grupo.habilidades | join(', ') | e ]]
+[% endfor %]
+\end{itemize}
+
+%% ── 3. Experiencia Profesional ──────────────────────────────────────────────
+\section{Experiencia Profesional}
+[% for exp in experiencia %]
+\cventry{[[ exp.cargo | e ]]}{[[ exp.institucion | e ]]}{[[ exp.ubicacion | e ]]}{[[ exp.inicio | date ]] -- [[ exp.fin | date ]]}
+[% if exp.proyectos %]
+\begin{itemize}
+[% for p in exp.proyectos %]
+  \item \textbf{[[ p.nombre | e ]]}[% if p.codigo %] \textcolor{muted}{\small([[ p.codigo | e ]])}[% endif %]
+  \textcolor{muted}{\small [[ p.periodo ]]}: [[ p.descripcion | trim | e ]]
+[% endfor %]
+\end{itemize}
+[% elif exp.logros %]
+\begin{itemize}
+[% for logro in exp.logros %]
+  \item [[ logro | trim | e ]]
+[% endfor %]
+\end{itemize}
+[% endif %]
+\vspace{2pt}
+[% endfor %]
+
+%% ── 4. Educación ────────────────────────────────────────────────────────────
+\section{Educación}
+[% for edu in educacion %]
+\noindent\textbf{[[ edu.titulo | e ]]}[% if edu.subtitulo %] --- \textit{[[ edu.subtitulo | e ]]}[% endif %]\hfill\textcolor{muted}{\small [[ edu.periodo ]]}\\
+\textcolor{muted}{\small [[ edu.institucion | e ]]}
+\vspace{6pt}
+
+[% endfor %]
+
+%% ── 5. Formación Complementaria ─────────────────────────────────────────────
+\section{Formación Complementaria}
+\begin{itemize}
+[% for curso in cursos %]
+  \item \textbf{[[ curso.nombre | e ]]} --- [[ curso.institucion | e ]] ([[ curso.fecha | date ]])[% if curso.detalle %]: \textit{[[ curso.detalle | trim | e ]]}[% endif %]
+[% endfor %]
+\end{itemize}
+
+%% ── 6. Publicaciones Científicas ────────────────────────────────────────────
+\section{Publicaciones Científicas}
+\begin{itemize}
+[% for p in pub.publicaciones %]
+  \item [[ p.autores | trim | e ]] ([[ p.año ]]). \textit{[[ p.titulo | trim | e ]]}. [[ p.revista | e ]].[% if p.doi %] \href{[[ p.doi ]]}{doi:[[ p.doi | replace('https://doi.org/', '') ]]}[% endif %]
+[% endfor %]
+\end{itemize}
+
+\subsection{Presentaciones en Congresos}
+\begin{itemize}
+[% for c in pub.congresos %]
+  \item [[ c.titulo | trim | e ]] --- \textit{[[ c.evento | trim | e ]]}[% if c.lugar %], [[ c.lugar | e ]][% endif %] ([[ c.fecha | date ]]).
+[% endfor %]
+\end{itemize}
+
+%% ── 7. Idiomas ──────────────────────────────────────────────────────────────
+\section{Idiomas}
+[% for lang in idiomas %]\textbf{[[ lang.idioma ]]:} [[ lang.nivel ]][% if not loop.last %]\quad\textbar\quad [% endif %][% endfor %]
+
+%% ── Referencias ──────────────────────────────────────────────────────────────
+%% Uncomment the \section line below to include references in the output.
+%% Which references appear is controlled by mostrar: true/false in data/referencias.yaml
+%
+% \section{Referencias}
+% \begin{itemize}
+% [% for ref in referencias if ref.mostrar %]
+%   \item \textbf{[[ ref.nombre ]]} --- [[ ref.institucion | e ]] --- \href{mailto:[[ ref.email ]]}{[[ ref.email ]]}
+% [% endfor %]
+% \end{itemize}
+
+\end{document}

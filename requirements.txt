@@ -1,0 +1,8 @@
+# Python dependencies for CV build system
+# LaTeX compiler (NOT pip, install separately):
+#   macOS/Linux: xelatex (via TeX Live / MacTeX)
+#   Windows: tectonic (via Scoop: scoop install tectonic)
+
+pyyaml>=6.0
+jinja2>=3.1
+pypdf>=4.0

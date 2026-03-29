@@ -1,0 +1,296 @@
+# =============================================================================
+# EXPERIENCIA PROFESIONAL CONSOLIDADA
+# Fuente: 6 versiones de CV (2017-2026), tomando lo más completo de cada una
+# Campo 'incluir_exec: true' → aparece en versión ejecutiva
+# =============================================================================
+
+- cargo: Profesional de Proyectos, Unidad de Agroclima
+  institucion: CIREN, Centro de Información de Recursos Naturales
+  ubicacion: Santiago, Chile
+  inicio: "2020-03"
+  fin: presente
+  incluir_exec: true
+  proyectos:
+    - nombre: Programa Ministerial de Generación de Información Base
+      codigo: ""
+      periodo: "2020 – presente"
+      descripcion: >
+        Actualización, generación e integración de información de suelos, clima
+        y aguas para determinar potencial productivo agrícola bajo condiciones
+        climáticas actuales y futuras. Regiones de Valparaíso (2020),
+        Coquimbo (2021), Atacama (2022), O'Higgins (2023), Metropolitana (2024),
+        Ñuble (2025) y Los Ríos (2026).
+
+    - nombre: Análisis de la demanda hídrica en los territorios de las comunidades atacameñas de Borde Sureste (Toconao, Talabre, Camar, Socaire y Peine)
+      codigo: ""
+      periodo: "septiembre 2025 – enero 2026"
+      descripcion: >
+        Estimación de demanda hídrica para comunidades atacameñas del borde sureste del Salar de Atacama. 
+        Mediante el uso del método FAO56, y análisis de escenarios climáticos a partir de datos disponibles 
+        en ARCLIM del MMA. Se generó una evaluación de los principales cultivos, periodos de mayor 
+        demanda hídrica (fenología), evaluación de consumo en condiciones ideales por parte de los cultivos.
+        La escala entregada de los resultados, fue a nivel predial. Como resultado se entregó una representación 
+        de los valores de demanda agrícola de las comunidades, considerando un escenario climático moderado 
+        (SSP2 4.5) y un escenario climático pesimista (SSP5 8.5). Levantamiento de uso de suelo mediante vuelos de dron.
+
+
+    - nombre: Relación oferta-demanda de agua de riego, cuencas Limarí y Choapa
+      codigo: CONYCIT-8525FSEQ210037
+      periodo: "2022 – agosto 2023"
+      descripcion: >
+        Recopilación y análisis de matriz de cultivos, interpolación espacial de
+        variables climáticas, estimación de demanda hídrica. Coordinación del
+        componente técnico del proyecto.
+
+    - nombre: Transferencia de impactos de Embalses ante Cambio Climático
+      codigo: COD. BIP 400035909-0
+      periodo: "2022 – diciembre 2023"
+      descripcion: >
+        Estimación de condiciones actuales para agricultura, evaluación de
+        demanda hídrica bajo escenarios de cambio climático. Análisis de cambios
+        en aptitud agrícola de cultivos bajo riego.
+
+    - nombre: "NASA Develop: Crop Coefficients Using Remote Sensing, Maipo Basin"
+      codigo: ""
+      periodo: "2022"
+      descripcion: >
+        Contraparte técnica del programa NASA Develop. Estimación de
+        coeficientes de cultivo (Kc) mediante sensores remotos para mejorar
+        estimación de demanda hídrica.
+
+    - nombre: Estudio de Erosión Macrozona Sur
+      codigo: ""
+      periodo: "julio 2021 – diciembre 2021"
+      descripcion: >
+        Regiones de la Araucanía, Los Ríos y Los Lagos. Estimación e
+        interpolación del factor de erosividad de la lluvia mediante RUSLE.
+
+    - nombre: Análisis de Oferta Hídrica, Macrozona Centro-Sur
+      codigo: ""
+      periodo: "diciembre 2020 – agosto 2021"
+      descripcion: >
+        Regiones Metropolitana, O'Higgins y Maule (cuencas Maipo, Rapel, Maule,
+        Mataquito). Determinación de superficies efectivamente regadas,
+        interpolación de variables climáticas para demanda hídrica.
+
+    - nombre: Potencial Apibotánico, Comuna de Til Til
+      codigo: FIA UDE-2020-030
+      periodo: "julio 2020 – enero 2022"
+      descripcion: >
+        Levantamiento de línea base de flora, generación de base de datos
+        apícola, estimación espacial de potenciales apibotánicos.
+
+    - nombre: Zonificación aptitud productiva agropecuaria, Magallanes
+      codigo: FIA EST-2020-1415
+      periodo: "julio 2020 – diciembre 2021"
+      descripcion: >
+        Interpolación espacial de datos climáticos y proyecciones climáticas
+        para agricultura en la Región de Magallanes y Antártica Chilena.
+
+    - nombre: Inventario de erosión post mega-incendio 2017, Región del Maule
+      codigo: CORFO 19BP-117368
+      periodo: "febrero 2020 – agosto 2020"
+      descripcion: >
+        Implementación de RUSLE para estimación de pérdida de suelo.
+        Clasificación de severidad de erosión post incendios.
+
+  # Logros consolidados para versión ejecutiva (resumen de impacto)
+  logros:
+    - >
+      Diseñó e implementó grillas climáticas interpoladas (kriging, IDW) para
+      7 regiones de Chile (+200 estaciones), integrando redes DGA, DMC e INIA
+      para evaluar potencial productivo agrícola bajo escenarios actuales y de
+      cambio climático.
+    - >
+      Apoyó como contraparte técnica en programa NASA Develop (2022): estimación de Kc 
+      mediante teledetección en cuenca del Maipo. Coautoría en Goffin et al. 
+      (2022), Sustainable Horizons, y Goffin et al. (2024), Remote Sensing.
+    - >
+      Implementó modelación de erosión hídrica (RUSLE) en 5 regiones de las
+      macrozonas Centro y Sur, incluyendo diagnóstico post mega-incendios 2017
+      en Región del Maule.
+    - >
+      Coordinó componente técnico de proyecto ANID de relación
+      oferta-demanda hídrica para cuencas Limarí y Choapa (Región de Coquimbo).
+
+- cargo: Consultor
+  institucion: The Green Factory / The Nature Conservancy (TNC)
+  ubicacion: Santiago, Chile
+  inicio: "2019-05"
+  fin: "2019-10"
+  incluir_exec: true
+  proyectos: []
+  logros:
+    - >
+      Elaboró componente geoespacial del Plan Estratégico de Fondos de Agua
+      2019-2024, cuenca del Río Maipo. Diagnóstico del estado de la cuenca
+      mediante integración de capas de uso de suelo, cobertura y recursos
+      hídricos.
+
+- cargo: Investigador / Asistente de Investigación
+  institucion: "LARES, Laboratory for Research in Environmental Sciences, Universidad de Chile"
+  ubicacion: Santiago, Chile
+  inicio: "2017-01"
+  fin: "2019-12"
+  incluir_exec: true
+  proyectos: []
+  logros:
+    - >
+      Desarrolló mapa dinámico de evapotranspiración de referencia (ETo) a
+      escala diaria para Chile continental, integrando series temporales de
+      NDVI y LST (proyecto FIA PYT-2017-0877, U. de Chile – U. de Talca).
+    - >
+      Implementó monitoreo ambiental de proyecto minero mediante análisis
+      multitemporal de NDVI con imágenes satelitales para evaluar estado
+      de la vegetación.
+    - >
+      Validó datos de red ciudadana de monitoreo de calidad del aire mediante
+      contraste contra estación de referencia ENAP, asegurando consistencia y
+      confiabilidad de las mediciones de sensores de bajo costo.
+
+- cargo: Investigador
+  institucion: Centro UC de Cambio Global, Pontificia Universidad Católica de Chile
+  ubicacion: Santiago, Chile
+  inicio: "2013-02"
+  fin: "2015-12"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Desarrolló el componente climático de la zonificación vitivinícola de Chile 
+      (12CTI-16788-04), evaluando índices bioclimáticos bajo escenarios de cambio
+      climático para determinar aptitud productiva de regiones vitícolas.
+    - >
+      Desarrolló modelo de cultivo dependiente de clima para cuenca del Río
+      Maipo, proyecto MAPA de adaptación al cambio climático.
+    - >
+      Implementó sistema de soporte a decisiones para planificación de riego,
+      cuenca del Río Claro de Rengo.
+    - >
+      Contribuyó al análisis de disponibilidad de datos para la actualización 
+      del Balance Hídrico Nacional (S.I.T. N°313), incluyendo diagnóstico de 
+      impacto del cambio climático en recursos hídricos y estado de glaciares.
+
+- cargo: Consultor Externo
+  institucion: Consultora GS3
+  ubicacion: Santiago, Chile
+  inicio: "2012-11"
+  fin: "2012-12"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Elaboró cartografía para línea base de impacto ambiental,
+      Minera Inca de Oro.
+
+- cargo: Consultor Externo
+  institucion: ARCADIS Chile S.A.
+  ubicacion: Santiago, Chile
+  inicio: "2012-03"
+  fin: "2012-11"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Procesó base de datos de avistamientos de avifauna y 
+      elaboró cartografía para línea base de fauna del Proyecto 
+      Minero Relincho Copper, incluyendo análisis de distribución espacial.
+
+- cargo: Consultor Externo
+  institucion: Patagonia Sur, LLC
+  ubicacion: Santiago, Chile
+  inicio: "2012-03"
+  fin: "2012-03"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Apoyó proyecto piloto de compensación de emisiones vehiculares mediante 
+      venta de bonos de carbono, vinculados a plantación de especies nativas 
+      en Patagonia, en convenio con Municipalidad de Peñalolén.
+
+- cargo: Consultor Externo
+  institucion: ARCADIS Chile S.A.
+  ubicacion: Santiago, Chile
+  inicio: "2011-08"
+  fin: "2012-02"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Sistematizó datos de terreno para informes de línea base de 
+      avifauna y analizó la distribución espacial de observaciones.
+
+- cargo: Asesor Técnico
+  institucion: Proyecto Santiago Alto Andino
+  ubicacion: Santiago, Chile
+  inicio: "2011-06"
+  fin: "2011-06"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Apoyó en elaboración de informe final del proyecto.
+
+- cargo: Asistente de Terreno
+  institucion: GESAM Consultores Ltda.
+  ubicacion: Aysén, Chile
+  inicio: "2011-08"
+  fin: "2011-08"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Realizó levantamiento de línea base campaña de invierno en Región de Aysén.
+      Caracterización de zonas riparinas y captura de especies dulceacuícolas.
+
+- cargo: Ingeniero de Proyecto
+  institucion: Universidad de Chile
+  ubicacion: Santiago, Chile
+  inicio: "2008-08"
+  fin: "2009-04"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Desarrolló base de datos climatológica nacional para proyecto
+      FONDEF D06I1100. Sistema de soporte de decisiones para cultivos de
+      rotación (SIG + modelos de simulación + estaciones meteorológicas).
+
+- cargo: Práctica Profesional
+  institucion: OBC Chinchimén
+  ubicacion: Puchuncaví, Chile
+  inicio: "2008-01"
+  fin: "2008-03"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Recopiló información espacial para base de datos espacial a nivel
+      comunal, con sitios de valor ecológico: Acantilados de la Quirilluca 
+      y Humedal de Campiche.
+
+# =============================================================================
+# DOCENCIA (incluir solo en versión full)
+# =============================================================================
+
+- cargo: Ayudante de Cátedra
+  institucion: Universidad de Chile, Depto. Ciencias Ambientales y Recursos Naturales
+  ubicacion: Santiago, Chile
+  inicio: "2006-01"
+  fin: "2009-12"
+  incluir_exec: false
+  proyectos: []
+  logros:
+    - >
+      Teoría de Sistemas y Modelamiento Ambiental (2006-1, 2009-2).
+      Prof. Dr. Luis Morales S. y MSc. Giorgio Castellaro G. Modelación
+      ambiental, programación Visual Basic, estadística, evaluación modelos.
+    - >
+      Física Ambiental (2007-2, 2009-2). Prof. Dr. Luis Morales S.
+      Contaminación atmosférica, termodinámica, radiación solar.
+    - >
+      Física General (2008-2). Prof. Dr. Luis Morales S.
+    - >
+      Ecología General (2006-2). Prof. Dr. Jorge Pérez Q. Dinámica de
+      poblaciones, interacciones ecológicas.

@@ -1,0 +1,67 @@
+# =============================================================================
+# COMPETENCIAS PROFESIONALES
+# Basado en autoevaluación recalibrada (feb 2026) + versión existente del repo
+#
+# habilidades       → aparecen en TODAS las versiones (full, exec, onepage)
+# habilidades_full  → aparecen SOLO en cv-full (herramientas legacy o secundarias)
+#
+# Nota: las plantillas deben iterar habilidades_full solo en cv-full.tex.j2
+# =============================================================================
+
+- grupo: Teledetección & Observación de la Tierra
+  habilidades:
+    - Piloto certificado de dron (DJI Mavic)
+    - Google Earth Engine (JavaScript, Python API)
+    - "Procesamiento de imágenes satelitales: Sentinel-2, Landsat, MODIS (óptico y SAR)"
+    - Índices espectrales y series temporales (NDVI, LST, índices bioclimáticos)
+    - Clasificación de cobertura y uso de suelo (supervisada, OBIA)
+    - "SIG: QGIS (avanzado), ArcGIS (avanzado)"
+    - "Procesamiento raster: GDAL, Orfeo Toolbox, Whitebox Tools"
+  habilidades_full:
+    - "SAGA GIS, Idrisi/TerrSet"
+    - "SAR: fundamentos Sentinel-1, SNAP"
+    - "LiDAR y modelos de elevación (fundamentos)"
+
+- grupo: Análisis Climático & Recursos Hídricos
+  habilidades:
+    - Interpolación espacial (kriging, IDW, splines, redes neuronales)
+    - Geoestadística (variogramas, validación cruzada)
+    - Modelación de evapotranspiración (ETo) y coeficientes de cultivo (Kc)
+    - Proyecciones climáticas y escenarios de cambio climático
+    - Balance hídrico y estimación de demanda de riego
+    - Erosión hídrica (RUSLE)
+    - Zonificación de aptitud productiva agrícola
+    - "Modelación hidrológica: WEAP (balance hídrico y gestión de cuencas)"
+  habilidades_full:
+    - "CALMET (viento)"
+
+- grupo: Programación & Datos
+  habilidades:
+    - "R: geodatos (sf, terra), análisis estadístico-climático, series temporales, ML (caret)"
+    - "Python: geodatos (geopandas, rasterio), datos climáticos (xarray), análisis tabular (pandas)"
+    - Automatización de flujos de trabajo (Make, scripts)
+  habilidades_full:
+    - SQL / DuckDB
+    - Git / GitHub
+    - Visual Basic, Matlab
+
+- grupo: Ciencia de Datos & Estadística
+  habilidades:
+    - Estadística inferencial y diseño experimental
+    - Machine Learning supervisado (Random Forest, XGBoost, SVM)
+    - Análisis de series temporales
+    - Reducción dimensional (PCA)
+    - Validación y métricas de desempeño
+  habilidades_full:
+    - "Deep Learning (fundamentos CNN, U-Net)"
+    - "Visualización y reportería: Power BI, Tableau (básico)"
+
+- grupo: Gestión de Proyectos & Comunicación Científica
+  habilidades:
+    - Formulación y gestión de proyectos (FIA, FONDEF, CORFO, ANID)
+    - Coordinación técnica de componentes de investigación
+    - Colaboración técnica en programas internacionales (NASA Develop, 2022)
+    - Coautoría en publicaciones científicas (Remote Sensing 2024, Sustainable Horizons 2022, Chilean J. Agricultural Research 2010)
+    - Presentaciones en congresos internacionales (AGU Fall Meeting 2022)
+  habilidades_full:
+    - Elaboración de líneas base ambientales

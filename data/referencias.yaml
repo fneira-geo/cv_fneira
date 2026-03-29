@@ -1,0 +1,35 @@
+# =============================================================================
+# REFERENCIAS
+# mostrar: true  → aparece cuando se activa la sección de referencias
+# mostrar: false → excluida (pero queda registrada aquí como respaldo)
+# =============================================================================
+
+- nombre: Patricio Torres
+  email: ptorres@ciren.cl
+  institucion: Centro de Información de Recursos Naturales (CIREN), MINAGRI
+  mostrar: true
+
+- nombre: Audrey Gallaud
+  email: agallaud@ciren.cl
+  institucion: Centro de Información de Recursos Naturales (CIREN), MINAGRI
+  mostrar: false
+
+- nombre: Fidel Maureira Sotomayor
+  email: maureira@msu.edu
+  institucion: Michigan State University
+  mostrar: false
+
+- nombre: Luis Morales Salinas
+  email: lmorales@uchile.cl
+  institucion: LARES, Universidad de Chile
+  mostrar: true
+
+- nombre: Francisco Meza Dabacens
+  email: fmeza@uc.cl
+  institucion: Centro UC Cambio Global, Pontificia Universidad Católica de Chile
+  mostrar: false
+
+- nombre: Sebastián Vicuña
+  email: svicuna@uc.cl
+  institucion: Centro UC Cambio Global, Pontificia Universidad Católica de Chile
+  mostrar: true

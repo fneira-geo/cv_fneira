@@ -1,0 +1,84 @@
+%% cv-exec.tex.j2 — Executive CV (~last 5 years)
+%% To update content: edit data/*.yaml then run: make exec
+%%
+%% What appears here is controlled by incluir_exec: true/false in:
+%%   data/experiencia.yaml  (per job)
+\documentclass[11pt, letterpaper]{article}
+[% include '_preamble.tex.j2' %]
+
+\begin{document}
+
+%% ── Header ───────────────────────────────────────────────────────────────────
+\adaptiveheaderBegin
+\begin{center}
+  {\LARGE\bfseries [[ perfil.nombre ]]}\\[4pt]
+  {\color{headerSubtext} [[ perfil.titulo | e ]]}\\[5pt]
+  \small
+  \href{mailto:[[ perfil.email ]]}{[[ perfil.email ]]}%
+  \quad\textbar\quad [[ perfil.telefono ]]%
+  \quad\textbar\quad [[ perfil.ubicacion ]]%
+  [% if perfil.linkedin %]\quad\textbar\quad\href{https://linkedin.com/in/[[ perfil.linkedin ]]}{LinkedIn}[% endif %]%
+  [% if perfil.github %]\quad\textbar\quad\href{https://github.com/[[ perfil.github ]]}{github/[[ perfil.github ]]}[% endif %]
+\end{center}
+\adaptiveheaderEnd
+{\color{accent}\rule{\textwidth}{0.5pt}}
+\vspace{2pt}
+
+%% ── 1. Perfil Profesional ───────────────────────────────────────────────────
+\section{Perfil Profesional}
+[[ perfil.resumen | trim ]]
+
+%% ── 2. Competencias ─────────────────────────────────────────────────────────
+\section{Competencias}
+\begin{itemize}[label={}]
+[% for grupo in competencias %]
+  \item \textbf{[[ grupo.grupo | e ]]:} [[ grupo.habilidades | join(', ') | e ]]
+[% endfor %]
+\end{itemize}
+
+%% ── 3. Experiencia Profesional ──────────────────────────────────────────────
+\section{Experiencia Profesional}
+[% for exp in exp_reciente %]
+\cventry{[[ exp.cargo | e ]]}{[[ exp.institucion | e ]]}{[[ exp.ubicacion | e ]]}{[[ exp.inicio | date ]] -- [[ exp.fin | date ]]}
+[% if exp.logros %]
+\begin{itemize}
+[% for logro in exp.logros %]
+  \item [[ logro | trim | e ]]
+[% endfor %]
+\end{itemize}
+[% endif %]
+\vspace{2pt}
+[% endfor %]
+
+%% ── Experiencia Anterior ─────────────────────────────────────────────────────
+[% if exp_anterior %]
+\subsection{Experiencia anterior}
+\begin{itemize}[nosep, leftmargin=1.5em, itemsep=1pt]
+[% for exp in exp_anterior %]
+  \item \textbf{[[ exp.cargo | e ]]} --- [[ exp.institucion | e ]], [[ exp.ubicacion | e ]] ([[ exp.inicio | date ]] -- [[ exp.fin | date ]])
+[% endfor %]
+\end{itemize}
+[% endif %]
+
+%% ── 4. Educación ────────────────────────────────────────────────────────────
+\section{Educación}
+[% for edu in educacion %]
+\noindent\textbf{[[ edu.titulo | e ]]}[% if edu.subtitulo %] --- \textit{[[ edu.subtitulo | e ]]}[% endif %]\hfill\textcolor{muted}{\small [[ edu.periodo ]]}\\
+\textcolor{muted}{\small [[ edu.institucion | e ]]}
+\vspace{6pt}
+
+[% endfor %]
+
+%% ── 5. Publicaciones Científicas ────────────────────────────────────────────
+\section{Publicaciones Científicas}
+\begin{itemize}
+[% for p in pub.publicaciones %]
+  \item [[ p.autores | trim | e ]] ([[ p.año ]]). \textit{[[ p.titulo | trim | e ]]}. [[ p.revista | e ]].[% if p.doi %] \href{[[ p.doi ]]}{doi:[[ p.doi | replace('https://doi.org/', '') ]]}[% endif %]
+[% endfor %]
+\end{itemize}
+
+%% ── 6. Idiomas ──────────────────────────────────────────────────────────────
+\section{Idiomas}
+[% for lang in idiomas %]\textbf{[[ lang.idioma ]]:} [[ lang.nivel ]][% if not loop.last %]\quad\textbar\quad [% endif %][% endfor %]
+
+\end{document}
