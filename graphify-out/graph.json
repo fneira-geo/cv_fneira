@@ -1,0 +1,1753 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "load_data",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 48",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_load_data"
+    },
+    {
+      "label": "base_context",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 60",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_base_context"
+    },
+    {
+      "label": "_latex_escape",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 76",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build__latex_escape"
+    },
+    {
+      "label": "_format_date",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 94",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build__format_date"
+    },
+    {
+      "label": "make_env",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 112",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_make_env"
+    },
+    {
+      "label": "compile_latex",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 132",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_compile_latex"
+    },
+    {
+      "label": "enforce_page_limit",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 164",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_enforce_page_limit"
+    },
+    {
+      "label": "_style_suffix",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 185",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build__style_suffix"
+    },
+    {
+      "label": "build_full",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 190",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_build_full"
+    },
+    {
+      "label": "build_exec",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 199",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_build_exec"
+    },
+    {
+      "label": "build_ats",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 216",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_build_ats"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "build.py",
+      "source_location": "line 236",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_main"
+    },
+    {
+      "label": "load_yaml",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_load_yaml"
+    },
+    {
+      "label": "fin_dentro_ventana",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_fin_dentro_ventana"
+    },
+    {
+      "label": "ultimo_anio",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_ultimo_anio"
+    },
+    {
+      "label": "add_paragraph_with_bold",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 48",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_add_paragraph_with_bold"
+    },
+    {
+      "label": "fill_table_row",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 69",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_fill_table_row"
+    },
+    {
+      "label": "section_datos_contacto",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 79",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_section_datos_contacto"
+    },
+    {
+      "label": "section_antecedentes",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 93",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_section_antecedentes"
+    },
+    {
+      "label": "section_linea_especializacion",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 104",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_section_linea_especializacion"
+    },
+    {
+      "label": "section_experiencia",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 129",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_section_experiencia"
+    },
+    {
+      "label": "section_proyectos",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 140",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_section_proyectos"
+    },
+    {
+      "label": "section_competencias",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 156",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_section_competencias"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 201",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_cv_docx_main"
+    },
+    {
+      "label": "set_single_spacing",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_set_single_spacing"
+    },
+    {
+      "label": "setup_document",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_setup_document"
+    },
+    {
+      "label": "add_heading",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 39",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_add_heading"
+    },
+    {
+      "label": "add_subheading",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_add_subheading"
+    },
+    {
+      "label": "set_table_borders_black",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 56",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_set_table_borders_black"
+    },
+    {
+      "label": "add_section_break",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 69",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_add_section_break"
+    },
+    {
+      "label": "add_invisible_table",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 75",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_add_invisible_table"
+    },
+    {
+      "label": "add_single_cell_table",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_add_single_cell_table"
+    },
+    {
+      "label": "add_empty_table",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 104",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_add_empty_table"
+    },
+    {
+      "label": "add_label",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 117",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_add_label"
+    },
+    {
+      "label": "add_bullet",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 124",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_add_bullet"
+    },
+    {
+      "label": "section_datos_contacto",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 132",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_section_datos_contacto"
+    },
+    {
+      "label": "section_antecedentes",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 147",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_section_antecedentes"
+    },
+    {
+      "label": "section_linea_especializacion",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 152",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_section_linea_especializacion"
+    },
+    {
+      "label": "section_experiencia",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 157",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_section_experiencia"
+    },
+    {
+      "label": "section_proyectos",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 163",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_section_proyectos"
+    },
+    {
+      "label": "section_competencias",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 168",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_section_competencias"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "build_template_docx.py",
+      "source_location": "line 193",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_main"
+    },
+    {
+      "label": "setup_document",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_setup_document"
+    },
+    {
+      "label": "set_lang_es_cl",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_set_lang_es_cl"
+    },
+    {
+      "label": "add_title",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 54",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_add_title"
+    },
+    {
+      "label": "add_heading",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 64",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_add_heading"
+    },
+    {
+      "label": "add_subheading",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 83",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_add_subheading"
+    },
+    {
+      "label": "add_placeholder_run",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 91",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_add_placeholder_run"
+    },
+    {
+      "label": "add_label_value",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 98",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_add_label_value"
+    },
+    {
+      "label": "add_table",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 109",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_add_table"
+    },
+    {
+      "label": "add_bullet",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 154",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_add_bullet"
+    },
+    {
+      "label": "section_datos_contacto",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 170",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_section_datos_contacto"
+    },
+    {
+      "label": "section_antecedentes",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 185",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_section_antecedentes"
+    },
+    {
+      "label": "section_linea_especializacion",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 195",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_section_linea_especializacion"
+    },
+    {
+      "label": "section_experiencia",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 207",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_section_experiencia"
+    },
+    {
+      "label": "section_proyectos",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 219",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_section_proyectos"
+    },
+    {
+      "label": "section_competencias",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 231",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_section_competencias"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 254",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "build_template_docx_bonito_main"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "clean.py",
+      "source_location": "line 16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "clean_main"
+    },
+    {
+      "label": "fetch",
+      "file_type": "code",
+      "source_file": "download_fonts.py",
+      "source_location": "line 29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "download_fonts_fetch"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "download_fonts.py",
+      "source_location": "line 35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "download_fonts_main"
+    },
+    {
+      "label": "CV Fneira Project",
+      "file_type": "project",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Fernando Andr\u00c3\u00a9s Neira Rom\u00c3\u00a1n",
+      "contributor": null,
+      "id": "project_cv_fneira"
+    },
+    {
+      "label": "Fernando Andr\u00c3\u00a9s Neira Rom\u00c3\u00a1n",
+      "file_type": "person",
+      "source_file": "data/perfil.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "person_fernando_neira"
+    },
+    {
+      "label": "Centro de Informaci\u00c3\u00b3n de Recursos Naturales (CIREN)",
+      "file_type": "organization",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "org_ciren"
+    },
+    {
+      "label": "LARES, Laboratory for Research in Environmental Sciences, Universidad de Chile",
+      "file_type": "organization",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "org_lares"
+    },
+    {
+      "label": "Centro UC de Cambio Global, Pontificia Universidad Cat\u00c3\u00b3lica de Chile",
+      "file_type": "organization",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "org_centro_cambio_global"
+    },
+    {
+      "label": "The Green Factory / The Nature Conservancy (TNC)",
+      "file_type": "organization",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "org_green_factory"
+    },
+    {
+      "label": "Universidad de Chile",
+      "file_type": "organization",
+      "source_file": "data/educacion.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "org_universidad_chile"
+    },
+    {
+      "label": "Profesional de Proyectos, Unidad de Agroclima",
+      "file_type": "role",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "role_profesional_proyectos"
+    },
+    {
+      "label": "Investigador / Asistente de Investigaci\u00c3\u00b3n",
+      "file_type": "role",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "role_investigador"
+    },
+    {
+      "label": "Ingeniero en Recursos Naturales Renovables",
+      "file_type": "education",
+      "source_file": "data/educacion.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "education_ing_recursos"
+    },
+    {
+      "label": "Diplomado en Geom\u00c3\u00a1tica Aplicada",
+      "file_type": "education",
+      "source_file": "data/educacion.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "education_diplomado_geomatica"
+    },
+    {
+      "label": "Diploma de Post\u00c3\u00adtulo en Ciencia e Ingenier\u00c3\u00ada de Datos",
+      "file_type": "education",
+      "source_file": "data/educacion.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "education_diploma_datos"
+    },
+    {
+      "label": "Teledetecci\u00c3\u00b3n and Observaci\u00c3\u00b3n de la Tierra",
+      "file_type": "skill_group",
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skill_teledeteccion"
+    },
+    {
+      "label": "An\u00c3\u00a1lisis Clim\u00c3\u00a1tico and Recursos H\u00c3\u00addricos",
+      "file_type": "skill_group",
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skill_clima_hidrica"
+    },
+    {
+      "label": "Programaci\u00c3\u00b3n and Datos",
+      "file_type": "skill_group",
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skill_programacion"
+    },
+    {
+      "label": "Ciencia de Datos and Estad\u00c3\u00adstica",
+      "file_type": "skill_group",
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skill_ciencia_datos"
+    },
+    {
+      "label": "Gesti\u00c3\u00b3n de Proyectos and Comunicaci\u00c3\u00b3n Cient\u00c3\u00adfica",
+      "file_type": "skill_group",
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "skill_gestion_proyectos"
+    },
+    {
+      "label": "Programa Ministerial de Generaci\u00c3\u00b3n de Informaci\u00c3\u00b3n Base",
+      "file_type": "project",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "project_programa_ministerial"
+    },
+    {
+      "label": "NASA Develop: Crop Coefficients Using Remote Sensing, Maipo Basin",
+      "file_type": "project",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "project_nasa_develop"
+    },
+    {
+      "label": "Relaci\u00c3\u00b3n oferta-demanda de agua de riego, cuencas Limar\u00c3\u00ad and Choapa",
+      "file_type": "project",
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "project_oferta_demanda_limari_choapa"
+    },
+    {
+      "label": "At Which Overpass Time Do ECOSTRESS Observations Best Align with Crop Health and Water Rights?",
+      "file_type": "publication",
+      "source_file": "data/publicaciones.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Goffin et al.",
+      "contributor": null,
+      "id": "publication_goffin_2024"
+    },
+    {
+      "label": "Leveraging remotely-sensed vegetation indices to evaluate crop coefficients and actual irrigation requirements in the water-stressed Maipo River Basin of Central Chile",
+      "file_type": "publication",
+      "source_file": "data/publicaciones.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Goffin et al.",
+      "contributor": null,
+      "id": "publication_goffin_2022"
+    },
+    {
+      "label": "Topoclimatic Modelling of Thermopluviometric Variables for the B\u00c3\u00ado B\u00c3\u00ado and La Araucan\u00c3\u00ada Regions, Chile",
+      "file_type": "publication",
+      "source_file": "data/publicaciones.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "D\u00c3\u00adaz et al.",
+      "contributor": null,
+      "id": "publication_diaz_2010"
+    },
+    {
+      "label": "American Geophysical Union (AGU) Fall Meeting 2022",
+      "file_type": "conference",
+      "source_file": "data/publicaciones.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "conference_agu_2022"
+    },
+    {
+      "label": "NASA ARSET Training Courses",
+      "file_type": "course",
+      "source_file": "data/cursos.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "course_nasa_arset"
+    },
+    {
+      "label": "Espa\u00c3\u00b1ol (Nativo)",
+      "file_type": "language",
+      "source_file": "data/idiomas.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "language_espa\u00c3\u00b1ol"
+    },
+    {
+      "label": "Ingl\u00c3\u00a9s (Avanzado)",
+      "file_type": "language",
+      "source_file": "data/idiomas.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "language_ingles"
+    },
+    {
+      "label": "Jinja2",
+      "file_type": "tool",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "tool_jinja2"
+    },
+    {
+      "label": "pypdf",
+      "file_type": "tool",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "tool_pypdf"
+    },
+    {
+      "label": "python-docx",
+      "file_type": "tool",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "tool_python_docx"
+    },
+    {
+      "label": "pyyaml",
+      "file_type": "tool",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "tool_pyyaml"
+    },
+    {
+      "label": "build.py",
+      "file_type": "script",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "script_build"
+    },
+    {
+      "label": "build_template_docx.py",
+      "file_type": "script",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "script_build_template_docx"
+    },
+    {
+      "id": "build"
+    },
+    {
+      "id": "argparse"
+    },
+    {
+      "id": "datetime"
+    },
+    {
+      "id": "platform"
+    },
+    {
+      "id": "re"
+    },
+    {
+      "id": "shutil"
+    },
+    {
+      "id": "subprocess"
+    },
+    {
+      "id": "sys"
+    },
+    {
+      "id": "tempfile"
+    },
+    {
+      "id": "pathlib"
+    },
+    {
+      "id": "yaml"
+    },
+    {
+      "id": "jinja2"
+    },
+    {
+      "id": "pypdf"
+    },
+    {
+      "id": "build_cv_docx"
+    },
+    {
+      "id": "docx"
+    },
+    {
+      "id": "build_template_docx"
+    },
+    {
+      "id": "build_template_docx_bonito"
+    },
+    {
+      "id": "clean"
+    },
+    {
+      "id": "download_fonts"
+    },
+    {
+      "id": "urllib"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "works_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2020-03 presente",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "org_ciren"
+    },
+    {
+      "relation": "worked_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2017-2019",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "org_lares"
+    },
+    {
+      "relation": "worked_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2013-2015",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "org_centro_cambio_global"
+    },
+    {
+      "relation": "worked_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2019-05 a 2019-10",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "org_green_factory"
+    },
+    {
+      "relation": "studied_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/educacion.yaml",
+      "source_location": "2002-2010",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "org_universidad_chile"
+    },
+    {
+      "relation": "holds_degree",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/educacion.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "education_ing_recursos"
+    },
+    {
+      "relation": "holds_degree",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/educacion.yaml",
+      "source_location": "2021",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "education_diplomado_geomatica"
+    },
+    {
+      "relation": "holds_degree",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/educacion.yaml",
+      "source_location": "2024",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "education_diploma_datos"
+    },
+    {
+      "relation": "speaks",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/idiomas.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "language_espa\u00c3\u00b1ol"
+    },
+    {
+      "relation": "speaks",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/idiomas.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "language_ingles"
+    },
+    {
+      "relation": "authored",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/publicaciones.yaml",
+      "source_location": "2024",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "publication_goffin_2024"
+    },
+    {
+      "relation": "authored",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/publicaciones.yaml",
+      "source_location": "2022",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "publication_goffin_2022"
+    },
+    {
+      "relation": "authored",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/publicaciones.yaml",
+      "source_location": "2010",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "publication_diaz_2010"
+    },
+    {
+      "relation": "works_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2020 presente",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "project_programa_ministerial"
+    },
+    {
+      "relation": "worked_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2022",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "project_nasa_develop"
+    },
+    {
+      "relation": "holds_role",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2020-03 presente",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "role_profesional_proyectos"
+    },
+    {
+      "relation": "has_skill",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "skill_teledeteccion"
+    },
+    {
+      "relation": "has_skill",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "skill_clima_hidrica"
+    },
+    {
+      "relation": "has_skill",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "skill_programacion"
+    },
+    {
+      "relation": "has_skill",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "skill_ciencia_datos"
+    },
+    {
+      "relation": "has_skill",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/competencias.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "skill_gestion_proyectos"
+    },
+    {
+      "relation": "presented_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/publicaciones.yaml",
+      "source_location": "2022-12",
+      "weight": 1.0,
+      "source": "person_fernando_neira",
+      "target": "conference_agu_2022"
+    },
+    {
+      "relation": "position_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "org_ciren",
+      "target": "role_profesional_proyectos"
+    },
+    {
+      "relation": "executes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "org_ciren",
+      "target": "project_programa_ministerial"
+    },
+    {
+      "relation": "executed_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2022",
+      "weight": 1.0,
+      "source": "org_ciren",
+      "target": "project_nasa_develop"
+    },
+    {
+      "relation": "executed_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "2022-2023-08",
+      "weight": 1.0,
+      "source": "org_ciren",
+      "target": "project_oferta_demanda_limari_choapa"
+    },
+    {
+      "relation": "position_at",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/experiencia.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "org_lares",
+      "target": "role_investigador"
+    },
+    {
+      "relation": "offered_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/educacion.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "org_universidad_chile",
+      "target": "education_diplomado_geomatica"
+    },
+    {
+      "relation": "offered_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "data/educacion.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "org_universidad_chile",
+      "target": "education_diploma_datos"
+    },
+    {
+      "relation": "developed_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "old_cv/full_cursos.md",
+      "source_location": "Basadas en Diplomado de Geom\u00c3\u00a1tica (2021)",
+      "weight": 1.0,
+      "source": "education_diplomado_geomatica",
+      "target": "skill_teledeteccion"
+    },
+    {
+      "relation": "developed_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "old_cv/full_cursos.md",
+      "source_location": "Basadas en Diploma de Ciencia e Ingenier\u00c3\u00ada de Datos (2024)",
+      "weight": 1.0,
+      "source": "education_diploma_datos",
+      "target": "skill_programacion"
+    },
+    {
+      "relation": "requires",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "coeficientes de cultivo mediante sensores remotos",
+      "weight": 1.0,
+      "source": "skill_teledeteccion",
+      "target": "project_nasa_develop"
+    },
+    {
+      "relation": "requires",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "data/experiencia.yaml",
+      "source_location": "interpolaci\u00c3\u00b3n espacial de variables clim\u00c3\u00a1ticas",
+      "weight": 1.0,
+      "source": "skill_clima_hidrica",
+      "target": "project_programa_ministerial"
+    },
+    {
+      "relation": "results_from",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "data/publicaciones.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "project_nasa_develop",
+      "target": "publication_goffin_2024"
+    },
+    {
+      "relation": "results_from",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "data/publicaciones.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "project_nasa_develop",
+      "target": "publication_goffin_2022"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "jinja2 - template rendering",
+      "weight": 1.0,
+      "source": "tool_jinja2",
+      "target": "script_build"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "pypdf - PDF manipulation",
+      "weight": 1.0,
+      "source": "tool_pypdf",
+      "target": "script_build"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "python-docx - DOCX file generation",
+      "weight": 1.0,
+      "source": "tool_python_docx",
+      "target": "script_build_template_docx"
+    },
+    {
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "pyyaml - YAML parsing",
+      "weight": 1.0,
+      "source": "tool_pyyaml",
+      "target": "script_build"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 18",
+      "weight": 1.0,
+      "source": "build",
+      "target": "argparse"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 19",
+      "weight": 1.0,
+      "source": "build",
+      "target": "datetime"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 20",
+      "weight": 1.0,
+      "source": "build",
+      "target": "platform"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 21",
+      "weight": 1.0,
+      "source": "build",
+      "target": "re"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 22",
+      "weight": 1.0,
+      "source": "build",
+      "target": "shutil"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 23",
+      "weight": 1.0,
+      "source": "build",
+      "target": "subprocess"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 24",
+      "weight": 1.0,
+      "source": "build",
+      "target": "sys"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 25",
+      "weight": 1.0,
+      "source": "build",
+      "target": "tempfile"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 26",
+      "weight": 1.0,
+      "source": "build",
+      "target": "pathlib"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 28",
+      "weight": 1.0,
+      "source": "build",
+      "target": "yaml"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 29",
+      "weight": 1.0,
+      "source": "build",
+      "target": "jinja2"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build.py",
+      "source_location": "line 30",
+      "weight": 1.0,
+      "source": "build",
+      "target": "pypdf"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 4",
+      "weight": 1.0,
+      "source": "datetime",
+      "target": "build_cv_docx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 3",
+      "weight": 1.0,
+      "source": "re",
+      "target": "build_cv_docx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "download_fonts.py",
+      "source_location": "line 8",
+      "weight": 1.0,
+      "source": "re",
+      "target": "download_fonts"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 5",
+      "weight": 1.0,
+      "source": "pathlib",
+      "target": "build_cv_docx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_template_docx.py",
+      "source_location": "line 3",
+      "weight": 1.0,
+      "source": "pathlib",
+      "target": "build_template_docx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 3",
+      "weight": 1.0,
+      "source": "pathlib",
+      "target": "build_template_docx_bonito"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "clean.py",
+      "source_location": "line 12",
+      "weight": 1.0,
+      "source": "pathlib",
+      "target": "clean"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "download_fonts.py",
+      "source_location": "line 10",
+      "weight": 1.0,
+      "source": "pathlib",
+      "target": "download_fonts"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 6",
+      "weight": 1.0,
+      "source": "yaml",
+      "target": "build_cv_docx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 8",
+      "weight": 1.0,
+      "source": "build_cv_docx",
+      "target": "docx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_cv_docx.py",
+      "source_location": "line 9",
+      "weight": 1.0,
+      "source": "build_cv_docx",
+      "target": "build_template_docx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_template_docx.py",
+      "source_location": "line 8",
+      "weight": 1.0,
+      "source": "docx",
+      "target": "build_template_docx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "build_template_docx_bonito.py",
+      "source_location": "line 7",
+      "weight": 1.0,
+      "source": "docx",
+      "target": "build_template_docx_bonito"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "download_fonts.py",
+      "source_location": "line 9",
+      "weight": 1.0,
+      "source": "download_fonts",
+      "target": "urllib"
+    }
+  ]
+}

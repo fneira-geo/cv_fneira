@@ -3,6 +3,12 @@
 # incluir_exec: true → aparece en versión ejecutiva
 # =============================================================================
 
+# --- OTROS ---
+- nombre: Capacitación operador RPA
+  institucion: R&C Technology AOC N°1529
+  fecha: "2025-10"
+  incluir_exec: true
+
 # --- NASA ARSET ---
 - nombre: Agricultural Crop Classification with SAR and Optical Remote Sensing
   institucion: NASA Applied Remote Sensing Training (ARSET)

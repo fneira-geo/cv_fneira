@@ -6,6 +6,5 @@ __pycache__/
 .RData
 
 .DS_Store
-claude.md
 *.html
 *_files/
